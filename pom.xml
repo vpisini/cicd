@@ -38,11 +38,9 @@
 				      <password>Pass1234</password>
 				      <applicationName>app-cicd</applicationName>
 				      <environment>Sandbox</environment>
+				      <region>us-east-ohio</region>
 				      <workerType>Micro</workerType>
-				      <workers>1</workers>				      
-				      <!--properties>
-				        <key>value</key>
-				      </properties-->
+				      <workers>1</workers>
 				    </cloudHubDeployment>
 				</configuration>
 				<executions>
