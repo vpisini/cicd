@@ -26,6 +26,17 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
+					<cloudHubDeployment>
+				      <uri>https://anypoint.mulesoft.com</uri>
+				      <muleVersion>${app.runtime}</muleVersion>
+				      <username>vpisiniMule3</username>
+				      <password>Pass1234</password>
+				      <applicationName>app-cicd</applicationName>
+				      <environment>Sandbox</environment>
+				      <!--properties>
+				        <key>value</key>
+				      </properties-->
+				    </cloudHubDeployment>
 				</configuration>
 			</plugin>
 		</plugins>
