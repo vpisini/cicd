@@ -33,7 +33,8 @@
 				<configuration>
 					<cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
-				      <muleVersion>${app.runtime}</muleVersion>
+				      <!-- muleVersion>${app.runtime}</muleVersion -->
+				      <muleVersion>4.2.2</muleVersion>
 				      <username>vpisiniMule3</username>
 				      <password>Pass1234</password>
 				      <applicationName>app-cicd</applicationName>
