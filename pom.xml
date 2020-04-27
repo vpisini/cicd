@@ -25,6 +25,11 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
+			</plugin>
+			<plugin>
+				<groupId>org.mule.tools.maven</groupId>
+				<artifactId>mule-maven-plugin</artifactId>
+				<version>${mule.maven.plugin.version}</version>	
 				<configuration>
 					<cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
@@ -34,8 +39,7 @@
 				      <applicationName>app-cicd</applicationName>
 				      <environment>Sandbox</environment>
 				      <workerType>Micro</workerType>
-				      <workers>1</workers>
-				      <uri>https://anypoint.mulesoft.com</uri>
+				      <workers>1</workers>				      
 				      <!--properties>
 				        <key>value</key>
 				      </properties-->
