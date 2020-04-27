@@ -33,6 +33,9 @@
 				      <password>Pass1234</password>
 				      <applicationName>app-cicd</applicationName>
 				      <environment>Sandbox</environment>
+				      <workerType>Micro</workerType>
+				      <workers>1</workers>
+				      <uri>https://anypoint.mulesoft.com</uri>
 				      <!--properties>
 				        <key>value</key>
 				      </properties-->
