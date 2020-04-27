@@ -33,8 +33,7 @@
 				<configuration>
 					<cloudHubDeployment>
 				      <uri>https://anypoint.mulesoft.com</uri>
-				      <!-- muleVersion>${app.runtime}</muleVersion -->
-				      <muleVersion>4.2.2</muleVersion>
+				      <muleVersion>${app.runtime}</muleVersion>				      
 				      <username>vpisiniMule3</username>
 				      <password>Pass1234</password>
 				      <applicationName>app-cicd</applicationName>
@@ -42,6 +41,7 @@
 				      <region>us-east-2</region>
 				      <workerType>Micro</workerType>
 				      <workers>1</workers>
+				      <objectStoreV2>true</objectStoreV2>
 				    </cloudHubDeployment>
 				</configuration>
 				<executions>
