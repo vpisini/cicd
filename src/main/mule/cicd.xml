@@ -11,5 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="fd3549fc-a3fe-4021-a509-bbccbb12c3ac" config-ref="HTTP_Listener_config" path="/cicd"/>
 		<logger level="INFO" doc:name="Logger" doc:id="52ffdfda-7843-41b4-ac3e-8b9a8c508840" message="sample flow"/>
 		<set-payload value="cicd sample project" doc:name="Set Payload" doc:id="1ca64968-0cf3-489d-b19c-b3657c8b1922" />
+		<logger level="INFO" doc:name="Logger" doc:id="4a095614-4d83-46f7-a378-ada1c8b9352e" message="Jenkins Build"/>
 	</flow>
 </mule>
